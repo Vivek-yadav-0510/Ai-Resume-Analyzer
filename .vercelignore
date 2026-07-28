@@ -1,0 +1,18 @@
+# Ignore local and build artifacts
+node_modules
+dist
+*.log
+npm-debug.log*
+.DS_Store
+.vscode
+.idea
+
+# Ignore workspace-level folders not needed for deployment
+marginalia-react/node_modules
+marginalia-react/dist
+
+# Keep the nested app source and config files for Vercel builds
+!marginalia-react/package.json
+!marginalia-react/vite.config.js
+!marginalia-react/src/**
+!marginalia-react/public/**

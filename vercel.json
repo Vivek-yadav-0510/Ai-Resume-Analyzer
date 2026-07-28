@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "marginalia-react/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "installCommand": "npm --prefix ./marginalia-react install",
+  "buildCommand": "npm --prefix ./marginalia-react run build"
+}
