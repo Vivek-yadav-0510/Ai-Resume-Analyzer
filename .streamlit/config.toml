@@ -1,0 +1,8 @@
+[server]
+headless = true
+address = "127.0.0.1"
+port = 8501
+enableCORS = false
+
+# Optional: if you need the browser-facing address to differ, set it here
+# browser.serverAddress = "127.0.0.1"
